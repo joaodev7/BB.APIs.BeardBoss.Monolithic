@@ -1,0 +1,6 @@
+@BB.APIs.BeardBoss.Monolithic_HostAddress = http://localhost:5199
+
+GET {{BB.APIs.BeardBoss.Monolithic_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
