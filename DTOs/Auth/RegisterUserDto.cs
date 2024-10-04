@@ -17,7 +17,7 @@ namespace BB.APIs.BeardBoss.Monolithic.DTOs.Auth
         public string Name { get; set; }
 
         [Required]
-        public int Role { get; set; }
+        public string Role { get; set; }
 
         [Required]
         [RegularExpression(@"\d{11}", ErrorMessage = "Invalid CPF. CPF must have 11 digits.")]
